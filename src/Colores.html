@@ -20,10 +20,19 @@
     <!-- Si queremos crear variables personalizadas, ejemplo: text-colorEncabezado;
      entonces esto se define en el archivo input.css (ver estructura del archivo) -->
 
+     <!-- p-2 es padding, rounded, es para que tenga bordes curvos --> 
      <h2 class="text-minimalista bg-black p-2 rounded">
         <span class ="text-main">Tailwind</span> CSS
      </h2>
-
+     <!-- Gradientes: Colores de degradado/gradient-->
+     <!-- Tambien se le puede asignar un borde-->
+     <div class=" text-white h-14 bg-linear-to-r from-cyan-500 to-blue-500 border-black border-1" > 
+        DIV con gradientes y bordes
+    </div>
+    <!-- Opacidad: se puede darle una transparencia-->  <!-- /50 es la transparencia -->
+     <h2 class="bg-amber-600/50">
+        Opacidad
+     </h2>
     
 </body>
 </html>
